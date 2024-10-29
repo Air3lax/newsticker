@@ -63,7 +63,7 @@ root = tk.Tk()
 root.title("Smooth Scrolling Ticker")
 
 # Canvas-Objekt für den Lauftext mit fester Größe
-canvas_width = 1600  # Feste Breite
+canvas_width = 3200  # Feste Breite
 canvas_height = 100  # Feste Höhe
 canvas = tk.Canvas(root, width=canvas_width, height=canvas_height, bg="black")
 canvas.pack()
